@@ -1,0 +1,29 @@
+/* styles/Home.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 20px; /* Add some padding to avoid text touching the edges */
+  }
+  
+  .text-container {
+    max-width: 60%; /* Adjust the width of the text container as needed */
+  }
+  
+  .text {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .image-container {
+    max-width: 20%; /* Adjust the width of the image container as needed */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add some border-radius to the image */
+  }
+  
